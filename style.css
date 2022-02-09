@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(247, 251, 255);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h {
+    padding-top: 50px;
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+ header a, footer a, footer p  {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+section#img1 {
+    background-image: url("../cordel-moderno/imagens/background001.jpg");
+    background-position: right center;
+}
+    section#img2 {
+        background-image: url("imagens/background002.jpg");
+    
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.39);
+    text-shadow: 1px 1px black;
+}
+
+section.normal {
+    background-color: white;
+    color:black;
+}
+
+section.imagem {
+    background-color: rgb(97, 97, 97);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
